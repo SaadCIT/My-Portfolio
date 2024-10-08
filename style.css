@@ -1,4 +1,4 @@
-/* Basic Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,33 +9,20 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background: linear-gradient(270deg, #c1ff2f, #dd2476);
+    background: linear-gradient(270deg, #c1ff2fb9, #dd2477b4);
     background-size: 400% 400%;
     animation: gradientBackground 15s ease infinite;
 }
 
-/* Gradient Animation */
-@keyframes gradientBackground {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-/* Main Styles for Header, Sections, etc. */
 .container {
     width: 80%;
     margin: 0 auto;
+    color: black;
 }
 
 header {
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    color: #fff;
+    background: rgba(81, 90, 173, 0.932); 
+    color: #e00d0d;
     padding: 20px 0;
 }
 
@@ -60,14 +47,14 @@ header nav ul li a {
     font-size: 18px;
 }
 
-/* Section Styles */
+
 section {
     padding: 50px 0;
     color: #fff;
 }
 
 #about, #projects, #contact {
-    background: rgba(0, 0, 0, 0.6); /* Semi-transparent section background */
+    background: rgba(161, 81, 81, 0.637); 
     margin-bottom: 20px;
 }
 
@@ -84,8 +71,8 @@ section {
 }
 
 footer {
-    background: rgba(0, 0, 0, 0.7);
-    color: #fff;
+    background: rgba(81, 90, 173, 0.932);
+    color: #f80000;
     text-align: center;
     padding: 10px 0;
     margin-top: 50px;
@@ -106,3 +93,50 @@ footer {
         width: 90%;
     }
 }
+
+
+
+
+.project {
+    margin-bottom: 20px; 
+}
+
+.project-card {
+    background: #ffffff; 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s; 
+}
+
+.project-card:hover {
+    transform: translateY(-5px); 
+}
+
+.project-card h3 {
+    margin: 0 0 10px; 
+}
+
+.project-card p {
+    margin: 0 0 15px; 
+}
+
+.project-card a {
+    display: inline-block; 
+    background: #007bff; 
+    color: #ffffff; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    transition: background-color 0.3s; 
+}
+
+.project-card a:hover {
+    background: #0056b3; 
+}
+
+
+
+
+
+
